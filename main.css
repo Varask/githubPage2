@@ -4,3 +4,12 @@ p{
 H2{
   background-color: blue
 }
+.animation-div{ 
+  animation: mymove 5s infinite;
+}
+
+/* mymove animation */
+@keyframes mymove {
+  from {background-color: rgb(45, 16, 16);}
+  to {background-color: yellow;}
+}
